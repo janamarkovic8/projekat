@@ -1,0 +1,78 @@
+.logo {
+    position: absolute;
+    right: 20px;
+    height: 50px;
+}
+.move-nav {
+    margin-left: 100px;
+}
+@media only screen and (max-width: 990px) {
+    .logo {
+        left: 80%;
+    }}
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+      .active {
+        background-color: #4CAF50;
+      }
+      h2{
+        text-align: center;
+        text-justify: auto;
+        font-size: 22px;
+        justify-content: center;
+        font-family: roboto;
+        
+      }
+      .row{
+        padding:20px;
+        margin-left:400px;
+      }
+    #myFile{
+      background-color: rgb(27, 126, 68); 
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      margin: 4px 2px;
+      cursor: pointer;
+      
+    }
+  .dugme{
+      background-color:  rgb(27, 126, 68); 
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      margin: 4px 2px;
+      cursor: pointer;
+      
+
+    }
+      
